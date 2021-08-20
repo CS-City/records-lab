@@ -1,6 +1,6 @@
 import React from 'react';
 
-function StudentCard() {
+function StudentCard(props) {
   return (
   <div className="container p-5 bg-light">
     <div className="row card p-4">
@@ -11,14 +11,14 @@ function StudentCard() {
 
             <div className="col-md-8  border ">
               <div className="p-2">
-                <h4>Student Name: </h4>
+                <h4>Student Name: {props.studentName}</h4>
                 <h4>Student ID: </h4>
               </div>
 
               <div className="m-2 p-2">
-                <h4>Bathroom Visits: </h4>
-                <h4>Guidance Visits: </h4>
-                <h4>Main Office Visits: </h4>
+                <h4>Bathroom Visits: {props.bathroomVisits}</h4>
+                <h4>Guidance Visits: {props.guidanceVisits}</h4>
+                <h4>Main Office Visits: {props.mainOfficeVisits}</h4>
               </div>
             </div>
             <div className="col-md-1"></div>
