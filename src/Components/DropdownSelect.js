@@ -2,8 +2,8 @@ import React from 'react';
 
 function DropdownSelect() {
   return (
-    <div className="container ">
-      <div className="row  my-5">
+    <div className="container bg-light p-5 ">
+      <div className="row">
         <h3 className="my-4">Filter Criteria</h3>
           <div className="col-md-4">
             <h5>Select Teacher</h5>

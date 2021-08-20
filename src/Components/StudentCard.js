@@ -2,14 +2,14 @@ import React from 'react';
 
 function StudentCard() {
   return (
-  <div className="container px-5">
+  <div className="container p-5 bg-light">
     <div className="row card p-4">
       <div className="col">
         <h1>Student Information</h1>
 
           <div className="row ">
 
-            <div className="col-md-8  border">
+            <div className="col-md-8  border ">
               <div className="p-2">
                 <h4>Student Name: </h4>
                 <h4>Student ID: </h4>
